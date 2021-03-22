@@ -7,10 +7,9 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-a,
-button {
-    transition: all .3s ease-in-out;
-    outline: none!important;
+a:focus,
+button:focus {
+    outline: solid;
 }
 
 a:hover {
@@ -334,7 +333,7 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+    text-decoration: underline;
 }
 
 .navbar-toggle {
@@ -1039,4 +1038,8 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.focus a:focus {
+    border: 3px solid #F3976C;
 }
