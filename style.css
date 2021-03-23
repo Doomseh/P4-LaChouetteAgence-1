@@ -98,7 +98,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255);
 }
 
 .d-bloc button:hover {
@@ -131,7 +131,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .8);
+    color: rgba(255, 255, 255, .9);
 }
 
 .d-bloc .a-btn:hover,
@@ -507,7 +507,20 @@ nav .caret {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 40px!important;
+    margin: 10px;
+}
+
+.icone {
+    display: flex;
+    justify-content: space-around;
+}
+.col-sm-3 {
+    padding: 0;
+}
+.mob-l {
+    max-width: 300px;
+    margin: auto;
 }
 
 .icon-lg {
@@ -772,7 +785,9 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin: auto;
 }
+
 
 .portfolio-row {
     margin-bottom: 44px;
@@ -1057,7 +1072,11 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .img-mg {
+        margin-top: 50px;
+    }
 }
+
 
 @media (max-width: 400px) {
     .bloc {
