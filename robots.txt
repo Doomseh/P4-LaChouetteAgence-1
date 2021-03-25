@@ -1,0 +1,2 @@
+User-Agent: x
+Sitemap: https://doomseh.github.io/P4-LaChouetteAgence-1/sitemap.xml
