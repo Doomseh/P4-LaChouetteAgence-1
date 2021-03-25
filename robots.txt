@@ -1,2 +1,3 @@
 User-Agent: x
+Disallow: 
 Sitemap: https://doomseh.github.io/P4-LaChouetteAgence-1/sitemap.xml
